@@ -1,0 +1,150 @@
+.devlog_date {
+    position: relative;
+    margin: auto;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background: #101b20;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    top: 50px;
+    font-size: xx-large;
+    padding: 50px;
+    left: 17%;
+    size: 100%;
+    text-shadow: black;
+    
+}
+
+.devlog_body {
+    position: relative;
+    margin: auto;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background: #101b20;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size: x-large;
+    top: 50px;
+    padding: 25px;
+    left: 17%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    transform: 50%
+}
+
+.heading {
+    position: relative;
+    color: rgb(255, 255, 255);
+    /* translate: 50%, 0px; */
+    top: 100px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.topBarWords {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    top: 10px;
+    z-index: 3;
+
+}
+
+.topBarText {
+    color: rgb(255, 255, 255);
+}
+
+.topFloater {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #284453;
+    color: #284453;
+
+}
+
+.body {
+    translate: 0px 50px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+}
+
+
+.footer {
+    translate: 0px 50px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 30px;
+    border-radius: 55%;
+    object-fit: cover;
+    float: left;
+    padding: 10px;
+    transition: 300ms ease;
+}
+
+.logo:hover {
+    scale: 2;
+}
+
+.bg {
+    background: linear-gradient(to right,
+            #639cbb 15%,
+            #3c647a 15% 85%,
+            #639cbb 85% 100%);
+}
+
+
+.tablee {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.scroll {
+    /* animation-name: scrolling;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+
+    border: 10px solid;
+    border-radius: 20%;
+    border-color: #284453;
+    transition: 100ms ease;
+
+
+}
+
+.scroll:hover {
+    scale: 1.1;
+}
+
+@keyframes scrolling {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
