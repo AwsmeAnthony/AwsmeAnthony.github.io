@@ -1,4 +1,3 @@
-
 .devlog_date {
     position: relative;
     color: rgb(255, 255, 255);
@@ -48,6 +47,24 @@
     width: 50%;
     font-size: 30px;
     padding: 25px;
+}
+
+.topBody {
+    position: relative;
+    color: rgb(255, 255, 255);
+    /* translate: 50%, 0px; */
+    top: 100px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.topBg {
+    background: linear-gradient(to top,
+            #639cbb 0%,
+            #3c647a 100%);
 }
 
 .topBarWords {
